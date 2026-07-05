@@ -144,7 +144,7 @@ The optimized curve closely overlaps the provided dataset, indicating that the e
 
 The recovered parametric curve can also be viewed on Desmos:
 
-**Desmos Link:** https://www.desmos.com/calculator/jnmytddmkc
+**Desmos Link:** https://www.desmos.com/calculator/geholcrizv
 
 
 # Technologies Used
