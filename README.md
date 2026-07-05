@@ -3,30 +3,28 @@
 ## Parameter Estimation of a Parametric Curve
 
 ---
-
 ## Problem Statement
 
-The objective of this assignment is to estimate the unknown parameters **θ (theta)**, **M**, and **X** of the given parametric equations using only the provided set of 2D points (`xy_data.csv`).
+The objective of this assignment is to estimate the unknown parameters **θ (theta)**, **M**, and **X** of the given parametric equations using only the provided set of 2D points stored in `xy_data.csv`.
 
-The given equations are:
+### Given Parametric Equations
 
-\[
-x = t\cos(\theta)-e^{M|t|}\sin(0.3t)\sin(\theta)+X
-\]
+```text
+x = t*cos(θ) - exp(M*|t|)*sin(0.3*t)*sin(θ) + X
 
-\[
-y = 42+t\sin(\theta)+e^{M|t|}\sin(0.3t)\cos(\theta)
-\]
+y = 42 + t*sin(θ) + exp(M*|t|)*sin(0.3*t)*cos(θ)
+```
 
-Subject to the following constraints:
+### Parameter Constraints
 
-- \(6 \le t \le 60\)
-- \(0^\circ < \theta < 50^\circ\)
-- \(-0.05 < M < 0.05\)
-- \(0 < X < 100\)
+| Parameter | Range |
+|-----------|-------|
+| t | 6 ≤ t ≤ 60 |
+| θ | 0° < θ < 50° |
+| M | -0.05 < M < 0.05 |
+| X | 0 < X < 100 |
 
-The task is to recover the unknown values of **θ**, **M**, and **X** such that the generated curve best matches the provided dataset.
-
+The goal is to determine the values of **θ**, **M**, and **X** that best reconstruct the given curve.
 ---
 
 # Approach
