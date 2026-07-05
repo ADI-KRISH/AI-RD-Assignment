@@ -140,6 +140,12 @@ y = 42
 The optimized curve closely overlaps the provided dataset, indicating that the estimated parameters accurately reconstruct the original curve.
 
 ---
+## Desmos Visualization
+
+The recovered parametric curve can also be viewed on Desmos:
+
+**Desmos Link:** https://www.desmos.com/calculator/jnmytddmkc
+
 
 # Technologies Used
 
